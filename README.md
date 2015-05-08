@@ -58,7 +58,7 @@ $ npm i slow-equals
 [npm-img]: https://img.shields.io/npm/v/slow-equals.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/slow-equals
 [travis-img]: https://img.shields.io/travis/fundon/slow-equals.svg?style=flat-square
-[travis-url]: https://travis-ci.org/trekjs/slow-equals
+[travis-url]: https://travis-ci.org/fundon/slow-equals
 [coveralls-img]: https://img.shields.io/coveralls/fundon/slow-equals.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/r/fundon/slow-equals?branch=master
 [license-img]: https://img.shields.io/badge/license-MIT-green.svg?style=flat-square
