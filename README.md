@@ -1,6 +1,6 @@
 # slow-equals
 
-A fast, compare tow strings
+A fast, compare tow strings, [slowequals](https://crackstation.net/hashing-security.htm#slowequals).
 
   [![NPM version][npm-img]][npm-url]
   [![Build status][travis-img]][travis-url]
