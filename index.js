@@ -10,8 +10,10 @@ function slowEquals(a, b) {
   // len ^ b.length
   if (len !== b.length) return false;
   var i = 0;
-  for (; i < len && (a.charCodeAt(i) !== b.charCodeAt(i)); ++i) {
-    return false;
+  for (; i < len; ++i) {
+    if (a.charCodeAt(i) !== b.charCodeAt(i)) {
+      return false;
+    }
   }
   return true;
 }

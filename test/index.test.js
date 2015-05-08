@@ -26,7 +26,7 @@ describe('slow-equals', function() {
 
   it('should not equal', function() {
     a = 'hello';
-    b = 'Hello';
+    b = 'helLo';
     r = slowEquals(a, b);
 
     assert.equal(false, r);
