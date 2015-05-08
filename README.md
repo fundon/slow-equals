@@ -11,7 +11,7 @@ A fast, compare tow strings, [slowequals](https://crackstation.net/hashing-secur
 ```js
 var slowEquals = require('slow-equals');
 
-var result = slow('Hello', 'hello');
+var result = slowEquals('Hello', 'hello');
 // result => false
 ```
 
