@@ -7,13 +7,10 @@
  */
 function slowEquals(a, b) {
   var len = a.length;
-  // len ^ b.length
-  if (len !== b.length) return false;
+  if (len ^ b.length) return false;
   var i = 0;
   for (; i < len; ++i) {
-    if (a.charCodeAt(i) !== b.charCodeAt(i)) {
-      return false;
-    }
+    if (a.charCodeAt(i) ^ b.charCodeAt(i)) return false;
   }
   return true;
 }
