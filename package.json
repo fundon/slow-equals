@@ -5,7 +5,10 @@
   "author": "Fangdun Cai <cfddream@gmail.com>",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec --bail --check-leaks test/**/*.test.js"
+    "test": "mocha --reporter spec --bail --check-leaks test/**/*.test.js",
+    "test-ci": "istanbul cover node_modules/.bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/**/*.test.js",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/**/*.test.js"
+
   },
   "repository": "fundon/slow-equals",
   "keywords": [
@@ -15,6 +18,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "istanbul": "^0.3.13",
     "mocha": "^2.2.4"
   },
   "files": [
