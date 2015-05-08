@@ -1,0 +1,23 @@
+{
+  "name": "slow-equals",
+  "version": "0.0.1",
+  "description": "A fast compare two strings",
+  "author": "Fangdun Cai <cfddream@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --bail --check-leaks test/**/*.test.js"
+  },
+  "repository": "fundon/slow-equals",
+  "keywords": [
+    "slowEquals",
+    "equals",
+    "compare"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  },
+  "files": [
+    "index.js"
+  ]
+}
